@@ -1,6 +1,10 @@
 package domain;
 
 
+
+ /**
+ * The class Animal
+ */ 
 public class Animal {
 
     protected String name;
@@ -9,20 +13,41 @@ public class Animal {
 
 
 
-    public Animal() { 
+
+/** 
+ *
+ * It is a constructor. 
+ *
+ */
+    public Animal() {  
+
 
         name = "tiger";
         weight = 275;
     }
 
 
-    public void eat() { 
+
+/** 
+ *
+ * Eat
+ *
+ */
+    public void eat() {  
+
 
         System.out.println("Animal eating ...");
     }
 
 
-    public void speak() { 
+
+/** 
+ *
+ * Speak
+ *
+ */
+    public void speak() {  
+
 
         System.out.println("Animal speak ...");
     }
@@ -30,13 +55,27 @@ public class Animal {
 
 
 
-    public void sleep() { 
+
+/** 
+ *
+ * Sleep
+ *
+ */
+    public void sleep() {  
+
 
         System.out.println("Animal ZzzZZzz ");
     }
 
     @Override
-    public String toString() { 
+/** 
+ *
+ * To string
+ *
+ * 
+ */
+    public String toString() {  
+
 
         return "My animal:\n" + "name: " + name + "\nweight: " + weight+" kg" ;
     }

@@ -1,12 +1,30 @@
 package domain;
 
+
+ /**
+ * The class Predator extends animal
+ */ 
 public class Predator extends Animal {
 
-    public void hunt() {
+
+/** 
+ *
+ * Hunt
+ *
+ */
+    public void hunt() { 
+
      System.out.println("Tiger hunt rrrr...");
     }
 
-    public void haunting() {
+
+/** 
+ *
+ * Haunting
+ *
+ */
+    public void haunting() { 
+
      System.out.println("Tiger chases...");
     }
 }
